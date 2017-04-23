@@ -9,14 +9,17 @@
  * Uma linguagem funcional evita estados ou dados mutáveis, o que a diferencia de uma linguagem imperativa onde seus programas são interpretados como uma série de ações que o computador realiza como se estivesse recebendo ordens e seus estados e dados podem ser mutáveis.
  * Haskell também não possui a existência de variáveis e é classificada como uma linguagem estática, ou seja,  as variaveis são tipadas, se uma váriavel recebe um numero inteiro ela só aceitara números inteiros, como haskell só há a existência de constantes, o mesmo conceito é aplicado
 
-* Vantagens:
+* Vantagens em utilizar Haskell:
   * Os programas ficam mais concisos, ou seja os programas são mais simples de serem escritos o que nos dá a maior escritabilidade.
   * Concorrência/paralelismo, a ordem de execução não afeta os resultados
-
+  * O sistema de tipos é completamente estático. Muitas erros que são detectados em tempo de execução em outras linguagens são detectados em tempo de compilação em Haskel
+  * Polimorfismo paramétrico / generics. Permite expressar tipos precisos, sem ter que fazer upcasting e downcasting com um supertipo Object.
+  
 * Desvantagens:
    * Maior distância do hardware
    * Compiladores e interpretadores mais complexos
    * Dificuldade em prever os custos tempo/espaço
+   
 
 # Avaliação Comparativa
 * Comparando Haskell com C
