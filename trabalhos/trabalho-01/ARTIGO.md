@@ -29,5 +29,27 @@
    fibonacci n = fibonacci(n-1)+fibonacci(n-2)
 
 ```
+Já a mesma função escrita em C:
+
+```C
+   int fibonacci(int n){
+			   int term1,term2,termn,i;
+			   term1=1;term2=1;
+			
+			   if (n == 0){
+				      return 0;
+			   }
+			   if (n < 3){
+				      return 1;
+			   }
+			   for(i=3;i<=n;i++){
+				      termn=term1+term2;
+				      term1=term2;
+				      term2=termn;
+			   }
+      return termn;
+   }
+```
+
 
 # Conclusão
