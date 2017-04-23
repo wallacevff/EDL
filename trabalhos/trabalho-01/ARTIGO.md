@@ -14,9 +14,9 @@
  * Concorrência/paralelismo, a ordem de execução não afeta os resultados
 
 * Desvantagens:
- * Maior distância do hardware
- * Compiladores e interpretadores mais complexos
- * Dificuldade em prever os custos tempo/espaço
+   * Maior distância do hardware
+   * Compiladores e interpretadores mais complexos
+   * Dificuldade em prever os custos tempo/espaço
 
 # Avaliação Comparativa
 
