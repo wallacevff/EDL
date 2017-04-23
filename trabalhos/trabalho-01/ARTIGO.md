@@ -38,6 +38,6 @@ Já a mesma função escrita em C:
 	return fatorial(n-1)*n;
 }
 ```
-
+Uma observação importante é que embora as duas necessitem de poucas linhas para escrever o código a função escrita em **_C_** passa a apresentar problema ao calcular fatoriais acima de **16** enquanto em Haskell não temos este tipo de problemas, para que este programa rode com eficiência em **_C_** há uma necessidade de mexer na estrutura de seu programa, o que não há a necessidade se o programa for escrito em **_Haskell_**
 
 # Conclusão
