@@ -24,9 +24,9 @@
   Para começar Haskell se diferencia da Linguagem C pelo simples fato de que Haskell é uma linguagem funcional e C é uma linguagem imperativa. Algumas funções, principalmente as funções matemáticas são mais fáceis de serem escrita em Haskell. A função que calcula o termo N de uma sequência de Fibonacci em Haskell ficaria assim:
   
 ```haskell
-fibonacci 0 = 0
-fibonacci 1 = 1
-fibonacci n = fibonacci(n-1)+fibonacci(n-2)
+   fibonacci 0 = 0
+   fibonacci 1 = 1
+   fibonacci n = fibonacci(n-1)+fibonacci(n-2)
 
 ```
 
