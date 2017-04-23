@@ -3,6 +3,11 @@
 # Introdução
 
 # Origens e Influências
+- Em  1987,    ocorreu  a  conferência  “Functional  Programming  Languages  and  Computer Architecture”, consolidação de linguagens existentes e criação de um padrão aberto.
+- Em 1990, lançou-se a primeira versão, criada por Simon Peyton-Jones, Paul Hudak e Philip Walder e nomeada em homenagem ao lógico Haskell Curry.
+- Surgiram novas versões até que em 1999 foi publicada o Haskell 98, que especifica uma versão mínima, estável e portável da linguagem.
+- Constante evolução: Implementação Hugs e GHC.
+
 
 # Classificação
  * Haskell é uma linguagem puramente funcional. Um programa desenvolvido nesta linguagem é um conjunto de definições de funções, que são aplicados a valores como acontece em funções matemáticas por exemplo.
