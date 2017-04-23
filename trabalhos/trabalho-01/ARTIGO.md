@@ -10,8 +10,8 @@
  * Haskell também não possui a existência de variáveis e é classificada como uma linguagem estática, ou seja,  as variaveis são tipadas, se uma váriavel recebe um numero inteiro ela só aceitara números inteiros, como haskell só há a existência de constantes, o mesmo conceito é aplicado
 
 * Vantagens:
- * Os programas ficam mais concisos, ou seja os programas são mais simples de serem escritos o que nos dá a maior escritabilidade.
- * Concorrência/paralelismo, a ordem de execução não afeta os resultados
+  * Os programas ficam mais concisos, ou seja os programas são mais simples de serem escritos o que nos dá a maior escritabilidade.
+  * Concorrência/paralelismo, a ordem de execução não afeta os resultados
 
 * Desvantagens:
    * Maior distância do hardware
