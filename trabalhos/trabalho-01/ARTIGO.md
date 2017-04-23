@@ -18,7 +18,7 @@
    * Compiladores e interpretadores mais complexos
    * Dificuldade em prever os custos tempo/espaço
 
-# Avaliação Comparativa
+# Avaliação Comparativa\n
 * Comparando Haskell com C
   Para começar Haskell se diferencia da Linguagem C pelo simples fato de que Haskell é uma linguagem funcional e C é uma linguagem imperativa. Algumas funções, principalmente as funções matemáticas são mais fáceis de serem escrita em Haskell. A função que calcula o termo N de uma sequência de Fibonacci em Haskell ficaria assim:
 
