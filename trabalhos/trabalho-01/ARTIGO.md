@@ -3,6 +3,10 @@
 # Introdução
 
 # Origens e Influências
+- 1930:  Alonzo  Church  desenvolveu  o  cálculo  de Lambda,  um  simples  e poderoso teorema de funções.
+- 1950: John McCarthy desenvolveu Lisp, a primeira linguagem funcional, que tinha influência da teoria de lambda
+ mas aceitando atribuições de variáveis.
+-  1970:  Robin  Milner  e  outros  desenvolveram  a ML,  a  primeira  linguagem funcional moderna, com introdução de inferência de tipos e tipos polimórficos.
 - Em  1987,    ocorreu  a  conferência  “Functional  Programming  Languages  and  Computer Architecture”, consolidação de linguagens existentes e criação de um padrão aberto.
 - Em 1990, lançou-se a primeira versão, criada por Simon Peyton-Jones, Paul Hudak e Philip Walder e nomeada em homenagem ao lógico Haskell Curry.
 - Surgiram novas versões até que em 1999 foi publicada o Haskell 98, que especifica uma versão mínima, estável e portável da linguagem.
