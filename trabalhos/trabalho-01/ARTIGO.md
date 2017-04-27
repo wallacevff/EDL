@@ -28,7 +28,7 @@
    * Maior distância do hardware
    * Compiladores e interpretadores mais complexos
    * Dificuldade em prever os custos tempo/espaço
-   
+   * Não possui comandos de repetições como **while** e **for**
 
 # Avaliação Comparativa
 * Comparando Haskell com C
@@ -51,5 +51,7 @@ Já a mesma função escrita em C:
 }
 ```
 Uma observação importante é que embora as duas necessitem de poucas linhas para escrever o código a função escrita em **_C_** passa a apresentar problema ao calcular fatoriais acima de **16** enquanto em Haskell não temos este tipo de problema, para que este programa rode com eficiência em **_C_** há uma necessidade de mexer na estrutura de seu programa, o que não há a necessidade se o programa for escrito em **_Haskell_**. Isto porque a linguagem Haskell possui a tipagem de dados __integer__, que possui a mesma caracteristica do tipo __int__ só que não possui limite de precisão, este tipo de valor é utilizado para expressar valores inteiros muito grandes.
+
+
 
 # Conclusão
