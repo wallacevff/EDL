@@ -1,7 +1,7 @@
 (Não é necessário seguir a estrutura a seguir...)
 
 # Introdução
-	Neste artigo temos como objetivo discutir um pouco sobre a linguagem Haskell, falar sobre sua origem, expor as suas características e citar exemplos de uso da linguagem em questão. Haskell é conhecida principalmente pela sua semelhança com funções matemáticas. 
+* Neste artigo temos como objetivo discutir um pouco sobre a linguagem Haskell, falar sobre sua origem, expor as suas características e citar exemplos de uso da linguagem em questão. Haskell é conhecida principalmente pela sua semelhança com funções matemáticas. 
 # Origens e Influências
 - 1930:  Alonzo  Church  desenvolveu  o  cálculo  de Lambda,  um  simples  e poderoso teorema de funções.
 - 1950: John McCarthy desenvolveu Lisp, a primeira linguagem funcional, que tinha influência da teoria de lambda
