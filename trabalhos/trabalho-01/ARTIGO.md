@@ -55,3 +55,12 @@ Uma observação importante é que embora as duas necessitem de poucas linhas pa
 
 # Conclusão
 * Neste artigo vimos de um modo geral, algumas características e comparações da utilização da linguagem Haskell. Também vimos as vantagens e desvantagem na utilização dessa linguagem. Também foi falado sobre a ausência de variáveis nesta linguagem, já que esta linguagem só há a presença de constantes e funções. Outra coisa que podemos perceber é não há comandos de repetições como __while__ e __for__, suas repetições são desenvolvidas de forma recursivas
+
+#Bibliografia
+* http://www.inf.ufes.br/~vitorsouza/wp-content/uploads/teaching-lp-20132-seminario-haskell.pdf
+
+* https://pt.wikipedia.org/wiki/Haskell_(linguagem_de_programa%C3%A7%C3%A3o)
+
+* https://pt.stackoverflow.com/questions/13359/pr%C3%B3s-e-contras-do-paradigma-funcional-e-do-haskell/14338
+
+* https://www.youtube.com/watch?v=QvZG_brQSaA
