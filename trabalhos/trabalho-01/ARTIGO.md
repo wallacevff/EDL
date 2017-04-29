@@ -17,7 +17,7 @@
  * Haskell é uma linguagem puramente funcional. Um programa desenvolvido nesta linguagem é um conjunto de definições de funções, que são aplicados a valores como acontece em funções matemáticas por exemplo.
  * Uma linguagem funcional evita estados ou dados mutáveis, o que a diferencia de uma linguagem imperativa onde seus programas são interpretados como uma série de ações que o computador realiza como se estivesse recebendo ordens e seus estados e dados podem ser mutáveis.
  * Haskell também não possui a existência de variáveis e é classificada como uma linguagem estática, ou seja,  as variaveis são tipadas, se uma váriavel recebe um numero inteiro ela só aceitara números inteiros, como haskell só há a existência de constantes, o mesmo conceito é aplicado
-
+* Possui Tuplas heterogêneas, ou seja, podemos criar uma tupla com diversos tipos de dados, como por exemplo uma com a presença de inteiros e strings.
 * Vantagens em utilizar Haskell:
   * Os programas ficam mais concisos, ou seja os programas são mais simples de serem escritos o que nos dá a maior escritabilidade.
   * Concorrência/paralelismo, a ordem de execução não afeta os resultados
@@ -51,7 +51,6 @@ Já a mesma função escrita em C:
 }
 ```
 Uma observação importante é que embora as duas necessitem de poucas linhas para escrever o código a função escrita em **_C_** passa a apresentar problema ao calcular fatoriais acima de **16** enquanto em Haskell não temos este tipo de problema, para que este programa rode com eficiência em **_C_** há uma necessidade de mexer na estrutura de seu programa, o que não há a necessidade se o programa for escrito em **_Haskell_**. Isto porque a linguagem Haskell possui a tipagem de dados __integer__, que possui a mesma caracteristica do tipo __int__ só que não possui limite de precisão, este tipo de valor é utilizado para expressar valores inteiros muito grandes.
-
 
 
 # Conclusão
