@@ -31,7 +31,7 @@
    * Não possui comandos de repetições como **while** e **for**
 
 # Avaliação Comparativa
-* Comparando Haskell com C
+* Comparando a Espressividade de Haskell em relação a C
 
   Para começar Haskell se diferencia da Linguagem C pelo simples fato de que Haskell é uma linguagem funcional e C é uma linguagem imperativa. Algumas funções, principalmente as funções matemáticas são mais fáceis de serem escrita em Haskell. A função que calcula o Fatorial de um número em Haskell ficaria assim:
   
