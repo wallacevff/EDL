@@ -33,7 +33,7 @@
 	tamanho_lista [x:xs] = x+xs
     ```
   * Tamanho de uma lista qualquer (Polimorfismo)
-  
+
     ```haskell
         tamanho_lista :: [a] -> int
 	tamanho_lista [] = 0
