@@ -25,11 +25,11 @@
   * Polimorfismo paramétrico / generics. Permite expressar tipos precisos, sem ter que fazer upcasting e downcasting com um supertipo Object.
   
   Ex:
-      ```haskell
+    ```haskell
          fatorial 0 = 1
          fatorial 1 = 1
          fatorial n = fatorial(n-1)*n
-      ```
+    ```
   
   
 * Desvantagens:
