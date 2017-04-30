@@ -28,16 +28,16 @@
   * Tamanho de uma lista de inteiros
   
     ```haskell
-       tamanho_lista :: [int] -> int
-	tamanho_lista [] = 0
-	tamanho_lista [x:xs] = x+xs
+    tamanho_lista :: [int] -> int
+    tamanho_lista [] = 0
+    tamanho_lista [x:xs] = x+xs
     ```
   * Tamanho de uma lista qualquer (Polimorfismo)
 
     ```haskell
-       tamanho_lista :: [a] -> int
-	tamanho_lista [] = 0
-	tamanho_lista [x:xs] = x+xs
+    tamanho_lista :: [a] -> int
+    tamanho_lista [] = 0
+    tamanho_lista [x:xs] = x+xs
     ```  
   
   
