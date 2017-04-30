@@ -24,10 +24,10 @@
   * O sistema de tipos é completamente estático. Muitas erros que são detectados em tempo de execução em outras linguagens são detectados em tempo de compilação em Haskel
   * Polimorfismo paramétrico / generics. Permite expressar tipos precisos, sem ter que fazer upcasting e downcasting com um supertipo Object.
     Ex:
-      ``haskell
-        fatorial 0 = 1
-        fatorial 1 = 1
-        fatorial n = fatorial(n-1)*n
+      ```haskell
+         fatorial 0 = 1
+         fatorial 1 = 1
+         fatorial n = fatorial(n-1)*n
 ```
   
   
