@@ -1,5 +1,3 @@
-(Não é necessário seguir a estrutura a seguir...)
-
 # Introdução
 * Neste artigo temos como objetivo discutir um pouco sobre a linguagem Haskell, falar sobre sua origem, expor as suas características e citar exemplos de uso da linguagem em questão. Haskell é conhecida principalmente pela sua semelhança com funções matemáticas. 
 # Origens e Influências
@@ -69,6 +67,34 @@ Já a mesma função escrita em C:
 ```
 Uma observação importante é que embora as duas necessitem de poucas linhas para escrever o código a função escrita em **_C_** passa a apresentar problema ao calcular fatoriais acima de **16** enquanto em Haskell não temos este tipo de problema, para que este programa rode com eficiência em **_C_** há uma necessidade de mexer na estrutura de seu programa, o que não há a necessidade se o programa for escrito em **_Haskell_**. Isto porque a linguagem Haskell possui a tipagem de dados __integer__, que possui a mesma caracteristica do tipo __int__ só que não possui limite de precisão, este tipo de valor é utilizado para expressar valores inteiros muito grandes.
 
+* Writibility
+ * Os códigos em Haskell costumam ser fáceis de escrever, pois não precisamos ser "detalhistas" nos procedimentos que queremos que o computador execute. Um exemplo é o próprio calculo do fatorial acima. O fato das funções definidas em Haskell serem semelhantes a matemática ajuda muito a intuição na hora de escrever os códigos, já que o raciocínio é semelhante ao que utilizamos em Matemática.
+ 
+ * Readbility
+  * Existem casos em que a legibilidade requer um pouco mais de conhecimento da linguagem Haskell do que em C, pois C é mais detalhista em seu código do que Haskell. Segue um exemplo abaixo:
+  
+  Função que retorna o tamalho de um vetor de inteiros em Haskell:
+  
+  ```haskell
+    tamanho_vetor :: [Int] -> Int
+    tamanho_vetor= 0
+    tamanho_vetor :: [x:s] = x+xs
+  ```
+  Função que retorna o tamanho de um vetor de inteiros em C:
+  
+  ```C
+     int tamanho(int a[]){
+       int tam i;
+       i = 0;
+       while(a[tam]){
+          tam++;
+       }	
+       return tam;
+}
+  ```
+  
+  
+  
 # Conclusão
 * Neste artigo vimos de um modo geral, algumas características e comparações da utilização da linguagem Haskell. Também vimos as vantagens e desvantagem na utilização dessa linguagem. Também foi falado sobre a ausência de variáveis nesta linguagem, já que esta linguagem só há a presença de constantes e funções. Outra coisa que podemos perceber é não há comandos de repetições como __while__ e __for__, suas repetições são desenvolvidas de forma recursivas
 
