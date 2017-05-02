@@ -84,8 +84,8 @@ Uma observação importante é que embora as duas necessitem de poucas linhas pa
   
   ```C
      int tamanho(int a[]){
-       int tam i;
-       i = 0;
+       int tam;
+       tam = 0;
        while(a[tam]){
           tam++;
        }	
