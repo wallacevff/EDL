@@ -47,31 +47,21 @@
 
 # Avaliação Comparativa
 * Comparando a Espressividade de Haskell em relação a C
-
-  Para começar Haskell se diferencia da Linguagem C pelo simples fato de que Haskell é uma linguagem funcional e C é uma linguagem imperativa. Algumas funções, principalmente as funções matemáticas são mais fáceis de serem escrita em Haskell. A função que calcula o Fatorial de um número em Haskell ficaria assim:
-  
+   * Lambdas são basicamente funções anônimas que utilizamos quando precisamos de alguma função uma única vez. Normalmente, criamos um lambda com o propósito único de passá-lo para uma função de ordem superior.
 ```haskell
-   fatorial 0 = 1
-   fatorial 1 = 1
-   fatorial n = fatorial(n-1)*n
+   f_exp x = let
+               c = x*2;
+	     in \n -> c^n;
 ```
-Já a mesma função escrita em C:
-
-```C
- int fatorial(int n){
-	if (n == 1 || n == 0){
-		return 1;
-	}
-	return fatorial(n-1)*n;
-}
-```
-Uma observação importante é que embora as duas necessitem de poucas linhas para escrever o código a função escrita em **_C_** passa a apresentar problema ao calcular fatoriais acima de **16** enquanto em Haskell não temos este tipo de problema, para que este programa rode com eficiência em **_C_** há uma necessidade de mexer na estrutura de seu programa, o que não há a necessidade se o programa for escrito em **_Haskell_**. Isto porque a linguagem Haskell possui a tipagem de dados __integer__, que possui a mesma caracteristica do tipo __int__ só que não possui limite de precisão, este tipo de valor é utilizado para expressar valores inteiros muito grandes.
+   * A função acima calcula o exponencial do dobro de um número qualquer, a função lambda **(\n)** se encarrega de realizar o exponencial do valor já calculado **c** cujo cálculo foi realizado na função **f_exp**. A função anônima **\n -> c^n ** encarrega-se por sua vez de realizar o exponencial e retornar para a função de ordem superior que é **f_exp**.
+   * Ex:
+     * f_exp(2 2) = > c = 2*2 => \2 -> 4^2 => 16
 
 * Writibility
- * Os códigos em Haskell costumam ser fáceis de escrever, pois não precisamos ser "detalhistas" nos procedimentos que queremos que o computador execute. Um exemplo é o próprio calculo do fatorial acima. O fato das funções definidas em Haskell serem semelhantes a matemática ajuda muito a intuição na hora de escrever os códigos, já que o raciocínio é semelhante ao que utilizamos em Matemática.
+  * Os códigos em Haskell costumam ser fáceis de escrever, pois não precisamos ser "detalhistas" nos procedimentos que queremos que o computador execute. Um exemplo é o próprio calculo do fatorial acima. O fato das funções definidas em Haskell serem semelhantes a matemática ajuda muito a intuição na hora de escrever os códigos, já que o raciocínio é semelhante ao que utilizamos em Matemática.
  
  * Readbility
-  * Existem casos em que a legibilidade requer um pouco mais de conhecimento da linguagem Haskell do que em C, pois C é mais detalhista em seu código do que Haskell. Segue um exemplo abaixo:
+   * Existem casos em que a legibilidade requer um pouco mais de conhecimento da linguagem Haskell do que em C, pois C é mais detalhista em seu código do que Haskell. Segue um exemplo abaixo:
   
   Função que retorna o tamalho de um vetor de inteiros em Haskell:
   
