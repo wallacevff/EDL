@@ -56,12 +56,25 @@
    * A função acima calcula o exponencial do dobro de um número qualquer, a função lambda **(\n)** se encarrega de realizar o exponencial do valor já calculado **c** cujo cálculo foi realizado na função **f_exp**. A função anônima **\n -> c^n ** encarrega-se por sua vez de realizar o exponencial e retornar para a função de ordem superior que é **f_exp**.
    * Ex:
      * f_exp(2 2) = > c = 2*2 => \2 -> 4^2 => 16
+     
+   * Outro exemplo de expressividade que temos em Haskell também é a presença de variaveis anônimas. Variaveis anônimas são utilizadas quando não um determinado parâmetro de uma função não vai interferir em seu valor de retorno.
+   * Ex:
+   
+```haskell
+   caso_logico :: Bool -> Bool -> Bool
+   caso_logico False _ = False
+   caso_logico True True = True
+   caso_logico _ False = False
+```
+   * A função acima recebe dois valores booleanos como parâmetro se obtivermos **false** e **true** como argumentos, não importa em qual ordem seja o retorno será sempre **false**. Ou seja, não importa o argumento recebido se já há a presença de um **false** como argumento por isso temos a variavel anônima **_** para realizar tal verificação.
+   
+   * Outro exemplo de expressividade em Haskell é o exemplo citado anteriormente sobre polimorfismo que foi utilizado em uma função para retornar o tamanho de uma tupla qualquer.
 
 * Writibility
   * Os códigos em Haskell costumam ser fáceis de escrever, pois não precisamos ser "detalhistas" nos procedimentos que queremos que o computador execute. Um exemplo é o próprio calculo do fatorial acima. O fato das funções definidas em Haskell serem semelhantes a matemática ajuda muito a intuição na hora de escrever os códigos, já que o raciocínio é semelhante ao que utilizamos em Matemática.
  
  * Readbility
-   * Existem casos em que a legibilidade requer um pouco mais de conhecimento da linguagem Haskell do que em C, pois C é mais detalhista em seu código do que Haskell. Segue um exemplo abaixo:
+   * Existem casos em que a legibilidade requer um pouco mais de conhecimento da linguagem **Haskell** do que em **C**, pois C é mais detalhista em seu código do que Haskell. Segue um exemplo abaixo:
   
   Função que retorna o tamalho de um vetor de inteiros em Haskell:
   
