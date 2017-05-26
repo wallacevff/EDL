@@ -19,6 +19,13 @@ function player1.update(dt)
 	
 	if love.keyboard.isDown("s") then
 		player1.y = player1.y + (player1.speed * dt)
+		
+	-- Trabalho 04
+	--Nome: player1.y
+	--Propriedade: Valor
+	--Biding Tine: execução
+	--Explicação: Seu valor é alterado em tempo de execução toda vez que o player se move na tela
+
 	elseif love.keyboard.isDown("w") then
 		player1.y = player1.y - (player1.speed * dt)
 	end
