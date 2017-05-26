@@ -2,6 +2,18 @@ bola = {}
 bola_colide_vertical = false
 bola_colide_horizontal = false
 
+-- Trabalho 04
+	--Nome: bola_colide_vertical
+	--Propriedade: Valor
+	--Biding Tine: Execução
+	--Explicação: Além de ser uma variável global seu valor é sempre alterado quando a bola realiza uma colisão na parte de baixo ou de cima do campo
+
+-- Trabalho 04
+	--Nome: "/"
+	--Propriedade: Semântica
+	--Biding Tine: Compilação
+	--Explicação: A divisão é feita em tempo de compilação do programa dependendo do tipo valores que serão calculados
+
 
 function bola.load()
 	bola.x = Width / 2
