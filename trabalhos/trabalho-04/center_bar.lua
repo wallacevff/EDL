@@ -35,7 +35,6 @@ function center_bar_update() -- faz a barra aparecer e sumir
 	if(center_bar_active == false) then
 		center_bar_active = true
 		table.insert(center_bar_collection,center_bar)
-		--center_bar.hit = 0
 	
 	--Tarefa 7:
 		-- Tempo de Vida:
