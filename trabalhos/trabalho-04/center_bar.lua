@@ -28,7 +28,8 @@ end
 
 function center_bar_update() -- faz a barra aparecer e sumir
 	--Tarefa 7
-		-- Alocacao, neste momento a barra central é alocada
+		-- Alocacao:
+		-- Neste momento a barra central é alocada
 		-- A alocacao ocorre quando a bola passa pela extremidade esquerda ou direita
 		
 	if(center_bar_active == false) then
@@ -36,8 +37,13 @@ function center_bar_update() -- faz a barra aparecer e sumir
 		table.insert(center_bar_collection,center_bar)
 		--center_bar.hit = 0
 	
-	--Tarefa 7
+	--Tarefa 7:
+		-- Tempo de Vida:
 		-- O tempo de vida da barra é até a pontuacao de um dos jogadores ou a bola bater nela 3 vezes
+	
+	-- Tarefa 7
+		-- Escopo:
+		-- center_bar está declarada no load do programa, logo seu escopo é global
 
 	else
 		center_bar_active = false
