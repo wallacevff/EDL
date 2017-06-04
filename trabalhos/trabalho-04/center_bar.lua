@@ -50,6 +50,7 @@ function center_bar_update() -- faz a barra aparecer e sumir
 		table.remove(center_bar_collection,1)
 	
 	-- Tarefa 7
+		-- Desalocacao:
 		-- Aqui a barra é desalocada ou porque a bola bateu 3 vezes nela ou porque houve a pontuacao de um dos jogadores
 		
 	end
