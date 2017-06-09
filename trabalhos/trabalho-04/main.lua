@@ -25,6 +25,8 @@ function love.update(dt)
 	colide_wall(player2)
 	if(start == true) then
 		bola.update(dt)
+	--Tarefa 06:
+	--Exemplo de enumeração em Lua:
 	elseif love.keyboard.isDown("space") then
 		bola.update(dt)
 		start = true
