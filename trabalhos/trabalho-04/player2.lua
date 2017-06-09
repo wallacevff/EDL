@@ -1,4 +1,4 @@
---Exemplo de Array em Lua (player2)
+--Exemplo de Registro em Lua (player2)
 
 player2 = {}
 function player2.load()
