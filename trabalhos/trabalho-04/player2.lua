@@ -1,5 +1,3 @@
---Exemplo de Registro em Lua (player2)
-
 player2 = {}
 function player2.load()
 	player2.width = 20
