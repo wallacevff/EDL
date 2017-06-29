@@ -7,43 +7,8 @@ down =  false
 function new (x,y,vx) 
     local me; me = {
         move = function (dx,dy)
-			if (x >= 600) then
-				up = true
-				right = false
-			end
-			
-			if( right == true and up == false and down == false) then
-				x = x + dx -- move para a direita
-				if ( x >= 600) then
-					up = true
-					rigth = false
-				end
-			end
-			
-			if (up == true and right == false) then
-				y = y - dy -- move para cima
-				if (y <= 100) then
-					up = false
-				end
-			end
-			
-			if(up == false and right == false) then
-				x = x - dx -- move para a direita
-				if (x <= 300) then
-					right = true
-					up = false
-					down = true
-				end
-			end
-				
-			if ( right == true and up == false and down == true) then
+				x = x + dx
 				y = y + dy
-				if (y >= 400) then
-					down = false
-					right = true
-				end
-			end			
-				
 			return x, y
         end,
         get = function ()
@@ -51,8 +16,26 @@ function new (x,y,vx)
         end,
         co = coroutine.create(function (dt)
             while true do
-                me.move( vx*dt, vx *dt)
-                dt = coroutine.yield()
+				for i = 0, 500 do
+					me.move( vx*dt, 0)
+					dt = coroutine.yield()
+				end
+				
+				for i = 0, 500 do
+					me.move( 0, -vx*dt)
+					dt = coroutine.yield()
+				end
+				
+				for i = 0, 500 do
+					me.move( -vx*dt, 0)
+					dt = coroutine.yield()
+				end
+				
+				for i = 0, 500 do
+					me.move( 0, vx*dt)
+					dt = coroutine.yield()
+				end
+	
             end
         end),
     }
@@ -60,7 +43,7 @@ function new (x,y,vx)
 end
 --------- fim exemplo closures ------
 
-o1 = new(Width/2 -80,Height/2 +60,1000 )
+o1 = new(Width/2 -100,Height/2 +60,200 )
 
 function ret_update (dt)
     coroutine.resume(o1.co, dt)
