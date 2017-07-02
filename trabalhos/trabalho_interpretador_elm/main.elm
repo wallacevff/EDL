@@ -17,7 +17,7 @@ type Programa = Atribui String Exp   -- Programa de atribuição de variável
 
 avaliar_expressao: Exp -> Avaliar -> Int
 avaliar_expressao exp aval =
-    case exp of   -- Para testar as expressões utilizar a função 0     
+    case exp of    
         Add expressao_01 expressao_02 -> (avaliar_expressao expressao_01 aval ) + (avaliar_expressao expressao_02 aval)
         Sub expressao_01 expressao_02 -> (avaliar_expressao expressao_01 aval ) - (avaliar_expressao expressao_02 aval)
         Mult expressao_01 expressao_02 -> (avaliar_expressao expressao_01 aval ) * (avaliar_expressao expressao_02 aval)
