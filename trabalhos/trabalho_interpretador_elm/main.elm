@@ -10,7 +10,6 @@ type Exp = Add Exp Exp  -- Tipo expressão criado que possui os nomes das opera�
          | Mult Exp Exp
          | Div Exp Exp
          | Num Int
-         | Var String
 
 type Programa = Atribui String Exp   -- Programa de atribuição de variável            
 
