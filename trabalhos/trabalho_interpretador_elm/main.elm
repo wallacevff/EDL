@@ -23,7 +23,7 @@ avaliar_expressao exp aval =
         Mult expressao_01 expressao_02 -> (avaliar_expressao expressao_01 aval ) * (avaliar_expressao expressao_02 aval)
         Div expressao_01 expressao_02 -> (avaliar_expressao expressao_01 aval ) // (avaliar_expressao expressao_02 aval)
         Num num -> num
-        Var var -> (aval var) -- Só funciona se for avaliada dentro de um programa
+        
         
 avaliar_programa: Programa -> Avaliar -> Avaliar
 avaliar_programa programa aval =
